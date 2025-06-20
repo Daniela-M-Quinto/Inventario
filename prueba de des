@@ -1,0 +1,76 @@
+README
+
+
+
+
+1) Al entrar al programa lo primero que podemos observar es:
+. el nombre de la tienda
+. el mensaje de bienvenida
+. menu 
+
+2) menu
+. En el menu se encuentra una variedad de opciones para el usuario
+. 6 opciones para escoger:
+
+           menu
+    1) Add products to inventory
+    2) Consult product: 
+    3) update price: 
+    4) remove products
+    5) calculate the value of inventory
+    6) GO OUT
+cada una con una funcion distinta para interactuar
+
+3) Add products to inventory
+Al escoger la primera opcion se le pide al usuario que ingrese los Datos del producto
+    
+
+       Enter the name of the product: Arroz 
+       Enter the price: 1500
+       Enter the amount: 1
+
+
+
+
+
+4) Consult product
+Al escoger la segunda opcion el usuario podra consultar un producto
+
+       Enter product name to consult:
+
+
+5) update price
+si el usuario desea actualizar el precio de un producto, al escoger esta opcion podra realizar esta funcion
+       
+        update price
+    Enter product name to update price: arroz
+    Enter new price: 2000
+    Price of arroz updated to $ 2000
+
+al digitar un produccto diferente al que se encuentra en el inventario el mensaje que se muestra es:
+             
+             Product not found.
+
+6) remove products
+si el usuario desea eliminar un producto se le pedira el nombre del produccto a eliminar
+Se imprime un aviso que el producto ha sido eliminado
+       
+          Name of the producto to removed: Arroz 
+          the products Arroz, was remove
+
+si por lo contrario el producto no fue encontrado en el inventario se imprimira el siguiente mensaje
+          
+           product not found
+
+
+7) calculate the value of inventory
+ 
+ si el usuario despues de ingresar todos sus productos quiere calcular el valor total de su inventario
+ esta opcion lo ayudara a obtener de manera rapida esa informacion 
+            
+            alculate the value of inventory $2000
+
+
+
+
+           
